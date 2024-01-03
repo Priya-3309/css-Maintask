@@ -1,0 +1,54 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Navigation Bar styles with hover effect */
+  .logo{
+    display:inline;
+  }
+  nav {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+  }
+  .searchbar{
+    display: inline;   
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+  }
+
+  nav a:hover {
+    background-color: #555;
+  }
+
+  /* Full-screen image with fixed background */
+  header {
+    background-image: url('rolex.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+
+  /* Styled fonts for text on the image */
+  h1 {
+    font-family: 'YourFont', sans-serif; /* Replace with your preferred font */
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-family: 'YourFont', sans-serif;
+    font-size: 1.5em;
+  }
